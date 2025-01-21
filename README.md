@@ -31,15 +31,9 @@ The dataset used is "Madhav Sales Data," stored as an Excel file (`Madhav Sales 
 *   `Marital Status`: The customer's marital status.
 *   `Occupation`: The customer's occupation.
 
-*(Add details like the number of rows and columns if available.)*
+* The dataset contains approximately 11239 rows and 13 columns.
 
-*Example:* The dataset contains approximately 1000 rows and 6 columns.
-
-## Data Cleaning (If Applicable)
-
-*(Describe any data cleaning steps performed here. If no cleaning was necessary, state "No data cleaning was required.")*
-
-*Example:*
+## Data Cleaning 
 
 *   Identified and addressed missing values (e.g., through imputation or removal).
 *   Ensured consistent data types (e.g., converting dates to datetime format).
@@ -83,7 +77,9 @@ To run the Jupyter Notebook, you'll need to install the required Python packages
 
 1.  **Data Loading:** The sales data was loaded from the Excel file into a Pandas DataFrame.
 2.  **Data Exploration:** Initial data exploration was performed to understand the data's structure and identify any potential issues.
-3.  **Data Cleaning (If Applicable):** *(Refer to the Data Cleaning section above.)*
+3.  **Data Cleaning (If Applicable):** **   Identified and addressed missing values (e.g., through imputation or removal).
+*   Ensured consistent data types (e.g., converting dates to datetime format).
+*   Resolved any data inconsistencies or errors.*
 4.  **Data Analysis and Visualization:** Python libraries (Pandas, Matplotlib, and Seaborn) were used to analyze the data and create visualizations to reveal key trends and patterns. This included analyzing sales by state, gender, marital status, occupation, product, and product ID.
 5.  **SQL Queries:**
 SELECT * FROM sales.madhav_sales_data;
@@ -94,8 +90,6 @@ select count(*) from sales.madhav_sales_data;
 ## Key Findings
 
 The analysis indicated that unmarried women aged 26-30 from Uttar Pradesh working in the IT sector are the most frequent purchasers at Madhav Shop.
-
-*(Include more specific findings if available. Examples:)*
 
 *   Uttar Pradesh demonstrated the highest sales volume compared to other states.
 *   Product ID [P00265242] was the top-selling product within this demographic.
