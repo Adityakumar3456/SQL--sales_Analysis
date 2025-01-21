@@ -77,7 +77,7 @@ To run the Jupyter Notebook, you'll need to install the required Python packages
     ```bash
     pip install pandas numpy matplotlib seaborn mysql-connector-python
     ```
-4.  **Ensure the `Madhav Sales Data.xlsx` file is in the same directory as the `Python-sql project.ipynb` file.**
+4.  **Ensure the `Madhav Sales Data.xlsx` file is in the same directory as the `Sales-data- Analysis.ipynb` file.**
 
 ## Data Analysis Process
 
@@ -85,7 +85,11 @@ To run the Jupyter Notebook, you'll need to install the required Python packages
 2.  **Data Exploration:** Initial data exploration was performed to understand the data's structure and identify any potential issues.
 3.  **Data Cleaning (If Applicable):** *(Refer to the Data Cleaning section above.)*
 4.  **Data Analysis and Visualization:** Python libraries (Pandas, Matplotlib, and Seaborn) were used to analyze the data and create visualizations to reveal key trends and patterns. This included analyzing sales by state, gender, marital status, occupation, product, and product ID.
-5.  **SQL Queries (If Applicable):** If SQL was used for any part of the analysis (e.g., data extraction or aggregation), describe it here.
+5.  **SQL Queries:**
+SELECT * FROM sales.madhav_sales_data;
+use madhav_sales_data;
+use sales;
+select count(*) from sales.madhav_sales_data;
 
 ## Key Findings
 
@@ -94,8 +98,8 @@ The analysis indicated that unmarried women aged 26-30 from Uttar Pradesh workin
 *(Include more specific findings if available. Examples:)*
 
 *   Uttar Pradesh demonstrated the highest sales volume compared to other states.
-*   Product ID [Specific Product ID] was the top-selling product within this demographic.
-*   [Add any other quantitative results or specific insights you uncovered].
+*   Product ID [P00265242] was the top-selling product within this demographic.
+*   Women Gender were spending more.
 
 ## Visualizations
 
